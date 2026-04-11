@@ -3,7 +3,6 @@ from google.genai import types
 
 
 def write_file(working_directory, file_path, content):
-
     try:
         abs_working_dir = os.path.abspath(working_directory)
         target_file = os.path.normpath(

@@ -10,6 +10,7 @@ from call_function import available_functions, call_function
 
 def main():
     load_dotenv()
+
     api_key = os.environ.get("GEMINI_API_KEY")
 
     if api_key is None:

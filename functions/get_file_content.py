@@ -4,7 +4,6 @@ from google.genai import types
 
 
 def get_file_content(working_directory, file_path):
-
     try:
         abs_working_dir = os.path.abspath(working_directory)
         target_file = os.path.normpath(
